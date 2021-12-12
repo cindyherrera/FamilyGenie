@@ -1,0 +1,28 @@
+Bugs found:
+
+sample.php allows duplicates to filter through;
+ought to include a back button to home page;
+gender is NOT NULL but no error message thrown when gender input left blank
+$query = "SELECT * FROM cindy_test.person";
+
+
+if ($stmt = $con->prepare($query)) {
+    $stmt->execute();
+    $stmt->bind_result($field1, $field2);
+    while ($stmt->fetch()) {
+        //printf("%s, %s\n", $field1, $field2);
+    }
+    $stmt->close();
+}
+
+$query = "SELECT * FROM cindy_test.person";
+
+
+if ($stmt = $con->prepare($query)) {
+    $stmt->execute();
+    $stmt->bind_result($field1, $field2);
+    while ($stmt->fetch()) {
+        //printf("%s, %s\n", $field1, $field2);
+    }
+    $stmt->close();
+}

@@ -1,0 +1,7 @@
+pet_Id,pet_name,breed,birth_date,clinic_Id
+1,Buddy,,0000-00-00,NULL
+2,Spot,Dalmation,0000-00-00,1
+3,Daisy,,2021-05-20,1
+4,Brownie,Labrador,2019-05-01,2
+5,Kilo,"Australian Shepherd",2012-07-01,1
+6,Chippy,"Domestic Shorthair",2009-04-20,3

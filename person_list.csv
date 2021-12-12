@@ -1,0 +1,7 @@
+person_Id,first_name,middle_name,last_name,gender,birth_date,address_Id,contact_infomation_Id,active_flag
+1,Robert,Borne,Bishop,M,"0000-00-00 00:00:00",1,1,1
+2,Melissa,Kimberly,Bishop,F,"0000-00-00 00:00:00",1,NULL,1
+3,Brittany,Grace,Bishop,F,NULL,1,NULL,1
+4,John,Kenny,Bishop,M,NULL,1,NULL,1
+5,Samatha,Kelly,Bishop,F,NULL,1,NULL,1
+6,Chase,Bliss,Bishop,M,NULL,1,NULL,1
